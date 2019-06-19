@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+.layout{
+    width: 1920px;
+    height: 800px;
+
+}
+#background{
+    width: 100%;
+    height: 75%;
+    background-image: url('test1.jpg');
+    border-style: outset;
+    position: relative;
+    /* background-repeat: no-repeat;  */
+    /* margin-left: 456px;
+    margin-right: 456px; */
+    /* padding-top: 20%; */
+}
+div{
+    margin-bottom: 50px;
+}
+#detail{
+    width: 80%;
+    height: 40%;
+    /* background-color: white; */
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: outset;
+}
+#createcv{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+
+}
+#background>ul{
+  position:absolute;
+  top:30px;
+  margin-top: 0;
+  right: 50px;
+  padding: 0;
+}
+#background>ul>li{
+color: white;
+list-style: none;
+font-size: 30px;
+float: left;
+margin-left: 20px;
+}
+li a{
+    color: white;
+}
+#avatar{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#background #name{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#background #job{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+#button{
+    text-align: center;
+}
+#button button{
+    border: none;
+    color: white;
+    background-color: green;
+    width: 180px;
+    height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 0;
+}
+#detail #info{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    float:left;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+#basic{
+    position: relative;
+    float:right;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    /* margin-left: 60px; */
+}
+#basic p>span{
+    display: inline-block;
+    width:200px;
+}
+</style>
+</head>
+
+<body>
+<div class="layout">
+    
+ <div id='background'>
+     <p id='createcv'>&nbsp;&nbsp; CREATE CV</p>
+     <ul>
+         <li><a href="">ABOUT</a></li>
+         <li><a href="">SKILLS</a></li>
+         <li><a href="">CONTACT</a></li>
+     </ul>
+     <div id='avatar'><img src="test2.jfif"></div>
+     <p id='name'>Denial Liu</p>
+     <p id='job'>Java Development Enginner</p>
+     <div id='button'>
+        <button value="JUST">HIRE&nbsp;ME</button>
+        <button value="DO IT!">DONLOAD&nbsp;CV</button>
+    </div>
+     
+ </div>
+
+</div>
+ <div id='detail'>
+     <div id="info">
+         <h3>ABOUT</h3>
+         <p>Hi,I am Denial Liu.Java Development Enginner</p>
+         <span>This is a resume that I made for myself to complete the homework.If you are interested in,you can press this link to find me. <a href="">learn more</a> </span>
+     </div>
+     <div id="basic">
+            <h3>BASIC INFORMATION</h3>
+            <p><span>AGE:</span>21</p>
+            <p><span>EMAIL:</span>75196105@qq.com</p>
+            <p><span>PHONE:</span>13509256210</p>
+            <p><span>ADDRESS:</span>In your heart,full of the space</p>
+            <p><span>LANGUAGE:</span>Chinese,English</p>
+        </div>
+ </div>
+</div>
+
+
+
+
+</body>
+
+</html>
